@@ -42,6 +42,16 @@
       border-radius: 6px;
       font-weight: bold;
     }
+    .join-mailing-list-link {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background: #FF4136;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
     ul, li {
       margin: 0;
       padding-left: 20px;
@@ -72,7 +82,6 @@
   <h1>TEQNet</h1>
   <p>The Intelligent Blockchain for Identity, Certification, and Real-World Utility</p>
   <p><em>Currently in Development</em></p>
-  <a class="button" href="#">Join the Waitlist</a>
 </header>
 
 <section>
@@ -113,9 +122,10 @@
 </section>
 
 <section>
-  <h2>🧠 AutoTEQ — AI Logic Engine</h2>
+  <h2>🧠 Compliance Engine Backed by AutoTEQ</h2>
   <p>
-    AutoTEQ powers off-chain policy enforcement: parsing documents, structuring metadata, validating compliance, and signing hash-anchored logic.
+    TEQNet's backend API at <strong>api.teqnet.io</strong> will power compliance logic, document parsing, and metadata policy enforcement.  
+    It will be backed by AutoTEQ — a dedicated AI engine that validates issuers, proposes upgrades, and signs hash-anchored logic for token issuance.
   </p>
 </section>
 
@@ -154,32 +164,10 @@
       <tr><td>Explorer</td><td>Token and transaction viewer</td><td><a href="https://explorer.teqnet.io">explorer.teqnet.io</a></td></tr>
       <tr><td>Docs</td><td>Developer + issuer integration guide</td><td><a href="https://docs.teqnet.io">docs.teqnet.io</a></td></tr>
       <tr><td>Tokenization UI</td><td>Visual minting interface</td><td><a href="https://tokenteq.io">tokenteq.io</a></td></tr>
-      <tr><td>AutoTEQ API</td><td>Logic + compliance engine</td><td><a href="https://autoteq.io">autoteq.io</a></td></tr>
+      <tr><td>API</td><td>Document parsing + logic enforcement</td><td><a href="https://api.teqnet.io">api.teqnet.io</a></td></tr>
       <tr><td>Verifier Portal</td><td>QR and token validity check</td><td><a href="https://verify.teqnet.io">verify.teqnet.io</a></td></tr>
       <tr><td>SDK & CDN</td><td>Embed tools for apps & wallets</td><td><a href="https://cdn.teqnet.io">cdn.teqnet.io</a></td></tr>
       <tr><td>Testnet</td><td>Faucet + sandbox RPC</td><td><a href="https://test.teqnet.io">test.teqnet.io</a></td></tr>
-    </tbody>
-  </table>
-</section>
-
-<section>
-  <h2>🗂️ Open Source Repositories</h2>
-  <p>
-    TEQNet is being developed in the open. Explore our GitHub organization for protocol-level code, token standards, and developer tooling.
-  </p>
-  <table>
-    <thead>
-      <tr><th>Repository</th><th>Purpose</th></tr>
-    </thead>
-    <tbody>
-      <tr><td><a href="https://github.com/teqnet/teqnet.io">teqnet.io</a></td><td>Landing page / website (HTML/CSS, waitlist form, roadmap)</td></tr>
-      <tr><td><a href="https://github.com/teqnet/teq721">teq721</a></td><td>Smart contract and tests for static identity tokens</td></tr>
-      <tr><td><a href="https://github.com/teqnet/teq1155">teq1155</a></td><td>Smart contract for multi-instance utility tokens</td></tr>
-      <tr><td><a href="https://github.com/teqnet/teq3646">teq3646</a></td><td>Smart contract for modular role/access tokens</td></tr>
-      <tr><td><a href="https://github.com/teqnet/autoteq-api">autoteq-api</a></td><td>Off-chain AI logic engine for document parsing and logic signing</td></tr>
-      <tr><td><a href="https://github.com/teqnet/subdomain-registry">subdomain-registry</a></td><td>Smart contract + utilities for issuing subdomains (e.g., user.kyc.teq)</td></tr>
-      <tr><td><a href="https://github.com/teqnet/docs">docs</a></td><td>Markdown or Docusaurus-based documentation for developer integration</td></tr>
-      <tr><td><a href="https://github.com/teqnet/testnet">testnet</a></td><td>Config files for validator setup, faucet, RPC nodes, etc.</td></tr>
     </tbody>
   </table>
 </section>
@@ -189,19 +177,21 @@
   <p>TEQNet is currently in active development. Components in progress include:</p>
   <ul>
     <li>TEQ721, TEQ1155, and TEQ3646 token standards</li>
-    <li>AutoTEQ off-chain AI enforcement system</li>
+    <li>AutoTEQ-powered backend API (api.teqnet.io)</li>
     <li>Subdomain registry and encrypted metadata framework</li>
-    <li>Cold Node upgrade architecture</li>
-    <li>Validator and DAO governance model</li>
+    <li>Cold Node upgrade infrastructure</li>
+    <li>Validator architecture and DAO governance model</li>
   </ul>
 </section>
 
 <footer>
   <h2>📣 Join the Future of Verifiable Digital Infrastructure</h2>
   <p>Tokenize identity. Certify reality. Enforce trust.</p>
-  <p>
-    <a class="button" href="#">Join the Waitlist</a>
-  </p>
+  <div style="text-align: center; margin-top: 40px; margin-bottom: 10px;">
+    <a href="http://eepurl.com/jgGXF6" target="_blank" rel="noopener" class="join-mailing-list-link">
+      Join Our Mailing List
+    </a>
+  </div>
   <p>© TEQNet — All rights reserved.</p>
 </footer>
 
